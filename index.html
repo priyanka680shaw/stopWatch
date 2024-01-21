@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <main >
+        <div class="container">
+            <div class="innerContainer">
+                <h1>Stop Watch</h1>
+                <h1>
+                    <span class="timer" id="hr">00 hr</span>
+                    <span class="timer" id="min">00 min</span>
+                    <span class="timer" id="sec">00 sec</span>
+                    <span class="timer" id="msec">00 </span>
+                </h1>
+                <section>
+                    <div class="button-section">
+                        <button id="start">Start</button>
+                        <button id="stop">Stop</button>
+                        <button id="reset">Reset</button>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <audio autoplay loop>
+            <source src="./audio/backgroundMusic.mp3" type="audio/ogg">
+            <source src="horse.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+          
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+</html>
